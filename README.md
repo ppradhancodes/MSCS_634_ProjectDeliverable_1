@@ -1,6 +1,6 @@
 # Deliverable 1: Data Collection, Cleaning, and Exploration
 
-## 📊 Dataset Overview
+## Dataset Overview
 - **Name**: Healthcare Dataset
 - **Source**: Kaggle (uploaded for this project)
 - **Size**: ~500+ records, with 8–10 attributes
@@ -10,7 +10,7 @@ This dataset was chosen because it offers rich information suitable for predicti
 
 ---
 
-## 🛠 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 Major cleaning steps performed:
 - **Handling missing values**:
   - Numerical columns imputed with median values to reduce effect of outliers.
@@ -23,7 +23,7 @@ Major cleaning steps performed:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Performed univariate and bivariate analyses to understand data distribution and feature relationships:
 - Histogram of age distribution revealed skewness and presence of outliers in older age ranges.
 - Bar chart of gender showed mild imbalance.
@@ -37,7 +37,7 @@ Performed univariate and bivariate analyses to understand data distribution and 
 
 ---
 
-## ⚠️ Challenges & Solutions
+## ⚠Challenges & Solutions
 | Challenge                          | Solution                                                        |
 |-----------------------------------|-----------------------------------------------------------------|
 | Missing data in several columns  | Used median/mode imputation depending on data type               |
@@ -46,7 +46,7 @@ Performed univariate and bivariate analyses to understand data distribution and 
 
 ---
 
-## 🔍 Next Steps
+## Next Steps
 - Feature engineering to improve model performance.
 - Encoding categorical variables.
 - Proceed to regression and classification modeling (Deliverable 2).
